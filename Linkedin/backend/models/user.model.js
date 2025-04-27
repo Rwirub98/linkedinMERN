@@ -26,12 +26,10 @@ const userSchema=new mongoose.Schema({
   },
   profileImage:{
     type:String,
-    required:true,
     default:"",
   },
   coverImage:{
     type:String,
-    required:true,
     default:"",
   },
   headline:{
